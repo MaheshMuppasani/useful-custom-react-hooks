@@ -32,7 +32,7 @@ import LongPressComponent from "./30-useLongPress.js/LongPressComponent"
 function App() {
   // return <ToggleComponent />
   // return <TimeoutComponent />
-  // return <DebounceComponent />
+  return <DebounceComponent />
   // return <UpdateEffectComponent />
   // return <ArrayComponent />
   // return <PreviousComponent />
@@ -59,7 +59,7 @@ function App() {
   // return <RenderCountComponent />
   // return <DebugInformationComponent />
   // return <HoverComponent />
-  return <LongPressComponent />
+  // return <LongPressComponent />
 }
 
 export default App

@@ -2,7 +2,7 @@ import useEventListener from "../13-useEventListener/useEventListener"
 import useTimeout from "../2-useTimeout/useTimeout"
 import useEffectOnce from "../20-useEffectOnce/useEffectOnce"
 
-export default function useLongPress(ref, cb, { delay = 250 } = {}) {
+export default function useLongPress(ref, cb, { delay = 500 } = {}) {
   const { reset, clear } = useTimeout(cb, delay)
   useEffectOnce(clear)
 
